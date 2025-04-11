@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+body  {
+    background-size: cover;
+    color: black;
+    background-color: white;
+}
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+.section1{
+    z-index: 1;
+    background:url(kishinau.png) ;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section2 {
+    z-index: 2;
+    background:url(https://i.simpalsmedia.com/point.md/news/900x900/5152df56c35a9e5139ad27ff41ec1ee3.jpg) ;
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section3 {
+    z-index: 3;
+    background:url(https://kishinev.info/assets/images/header_night.jpg) ;
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section4 {
+    z-index: 4;
+    background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Parcul_Valea_morilor_%282013%29_%283%29.jpg/1200px-Parcul_Valea_morilor_%282013%29_%283%29.jpg) ;
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section5 {
+    z-index: 5;
+    background:url(https://pohcdn.com/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/The-arch-of-Triumph.jpg) ;
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section6 {
+    z-index: 6;
+    background:url(https://1941-1945.md/media/dmi/museum/muzei_istorii.jpg?dmi=3293-1200x800-1200x800) ;
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section7 {
+    z-index: 7;
+    background:url(https://static.aviasales.com/psgr-v2/ru/putevoditel-po-kishinyovu/Ponarama_Kishineva_3de28244a8.jpeg) ;
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section8 {
+    z-index: 8;
+    background:url(https://34travel.me/media/upload/images/2017/november/kishinev/7976542709_726f17a4fb_k.jpg) ;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section9 {
+    z-index: 9;
+    background:url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-US.png) ;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.h {
+    z-index: 20;
+    cursor: pointer;
+    width:60%;
+    justify-content: center;
+    margin-right: 30px;
+    color: white;
+    display: flex;
+    margin: auto;
+    gap: 40px;
+    margin-right: -20px;
+    flex-direction: row;
+}
+.link {
+    background-color: white;
+    color: black;
+    width: 260px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.h h3 {
+    font-weight: 700;
+}
+.icons {
+    display: flex;
+    cursor: pointer;
+    margin: auto;
+    z-index: 10;
+    gap: 20px;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin-right: 30px;
+}
+.container {
+    justify-content: center;
+    align-items:center ;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap:5px
+}
+.h1-c {
+    z-index: 10;
+    font-size: 70px;
+    margin-top: -300px;
+}
+.h2-c {
+    z-index: 11;
+    margin-top: -60px;
+}
+.s2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:60px;
+}
+.s2 h1{
+    margin-top: 150px;
+    font-size: 70px;
+    z-index: 20;
+}
+.s2 h2 {
+    margin-top: -40px;
+    z-index: 25;
+}
+.s3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40;
+}
+.s4{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.s4 h1 {
+    font-size: 70px;
+}
+.s4 h2 {
+    margin-top: -65px;
+}
+.s5{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.s5 h1 {
+    font-size: 70px;
+}
+.s5 h2 {
+    margin-top: -65px;
+}
+.s6{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.s6 h1 {
+    font-size: 70px;
+}
+.s6 h2 {
+    margin-top: -65px;
+}
+.s7{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.s7 h1 {
+    font-size: 70px;
+}
+.s7 h2 {
+    margin-top: -65px;
+}
+.s7 h2{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.s8{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.s8 h1 {
+    font-size: 70px;
+}
+.s8 h2 {
+    width: 60%;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    
+}
